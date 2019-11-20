@@ -3,15 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Your Title
-subtitle: This is hexo theme
-author: John Doe
+title: itheone
+subtitle: BLOG-Haifeng Cao
+author: Haifeng Cao
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite-url       # Note: don't forget to modify the CNAME file to your url
+url: https://www.caohaifeng.site       # Note: don't forget to modify the CNAME file to your url
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -19,8 +19,8 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Beantech | 豆科技
-email: beantech@gmail.com
+SEOTitle: itheone
+email: caohaifengx@163.com
 description: ""
 keyword: ""
 header-img: img/header_img/home-bg-2-dark.png
@@ -30,12 +30,12 @@ signature-img: img/signature/BeanTechSign-white.png
 
 # SNS settings
 # RSS: false
-# weibo_username:     Demonbaneen
+weibo_username:     HaifengCao
 # zhihu_username:     Demonbane
-github_username:    YenYuHsuan
+github_username:    HaifengCao
 # twitter_username:   Demonbane_x
-facebook_username:  YenYuHsuan
-linkedin_username:  yu-hsuan-yen
+facebook_username:  HaifengCao
+linkedin_username:  HaifengCao
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
@@ -55,12 +55,12 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-XXXXXXXX-X'          # Format: UA-xxxxxx-xx
-ga_domain: yoursite
+ga_domain: www.caohaifeng.site
 
 
 # Sidebar settings
 sidebar: true                       # whether or not using Sidebar.
-sidebar-about-description: "Hi, i'm John Doe"
+sidebar-about-description: "Hi, i'm Haifeng Cao"
 sidebar-avatar: img/ironman-draw.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
 - featured-tags
@@ -84,18 +84,22 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 ## Friends
 friends: [
     {
-        title: "Bean Tech",
-        href: "http://beantech.org"
-    },{
-        title: "Kaijun's Blog",
-        href: "http://blog.kaijun.rocks"
-    },{
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
-        title: "It Helps SEO",
-        href: "#"
+        title: "百度链接",
+        href: "https://www.baidu.com"
     }
+    # {
+    #     title: "Bean Tech",
+    #     href: "http://beantech.org"
+    # },{
+    #     title: "Kaijun's Blog",
+    #     href: "http://blog.kaijun.rocks"
+    # },{
+    #     title: "Hux Blog",
+    #     href: "http://huangxuan.me"
+    # },{
+    #     title: "It Helps SEO",
+    #     href: "#"
+    # }
 ]
 
 
@@ -177,5 +181,5 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/YenYuHsuan/hexo-theme-beantech.git
-  branch: gh-page
+  repository: https://github.com/hevolf/hevolf.github.io.git
+  branch: master
